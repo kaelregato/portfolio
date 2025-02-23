@@ -2,6 +2,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    background: #000000;
 }
 /* styling menu icon */
 .nav-menu{
@@ -12,7 +13,7 @@ body{
 }
 /* styling navbar links  */
 .navbar-nav a{
-    color: black;
+    color: white;
     position: relative;
 }
 .navbar-nav a:hover{
@@ -42,17 +43,19 @@ body{
     color: #fff;
     font-size: 1.2rem;
 }
+
 /* styling home section starts */
 .home{
-    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
+    /* background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%); */
     padding: 30px 0px 10px 0px;
+    background: #14213d;
 }
 .home h2{
     font-size: 3rem;
     line-height: 4rem;
 }
 .c-orange{
-    color: #6f34fe;
+    color: #fca311;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -112,18 +115,18 @@ body{
 
 /* expertise section starts */
 .heading small{
-    color: #6f34fe;
+    color: #fca311;
     font-size: 1.5rem;
     font-weight: 600;
 }
 .heading h3{
     margin-top: 0.5rem;
-    color: #3f396d;
+    color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
 }
 .expertise h4{
-    color: #3f396d;
+    color: #fff;
     font-weight: 700;
 }
 .expertise a{
@@ -141,7 +144,8 @@ body{
 
 /* skill section starts */
 .skill{
-    background-color: rgb(234, 234, 249);
+    /* background-color: rgb(234, 234, 249); */
+    background-color: #14213d;
 }
 .progress-card{
     padding: 12% 10% 10% 15%;
@@ -255,7 +259,8 @@ body{
 
 /* blog section starts */
 .blog{
-    background-color: #f2f2ff;
+    /* background-color: #f2f2ff; */
+    background: #14213d;
 }
 .blog .blogpost .card{
     border: none;
@@ -307,7 +312,8 @@ body{
 }
 /* contact section starts */
 .contact{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
+    background: #14213d;
 }
 .contact-details i{
     font-size: 1.5rem;
@@ -316,6 +322,7 @@ body{
 .contact-details p{
     font-size: 1.2rem;
     margin-left: 1rem;
+    color: #fff;
 }
 .contact-form .form-control:focus{
     box-shadow: none;
@@ -328,14 +335,14 @@ body{
 
 /* footer section starts */
 footer{
-    background-color: #211e39;
+    background-color: black;
 }
 
 footer .link-group a{
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: #6c757d;
+    color: white;
     font-size: 1.1rem;
     margin-top: 1rem;
 }

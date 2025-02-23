@@ -66,8 +66,8 @@ let reactProgress = document.querySelector(".reactjs"),
   reactValue = document.querySelector(".reactjs-progress");
 
 let reactStartValue = 0,
-  reactEndValue = 30,
-  rjsspeed = 30;
+  reactEndValue = 70,
+  rjsspeed = 70;
 
 let progressreact = setInterval(() => {
   reactStartValue++;
