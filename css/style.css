@@ -391,3 +391,6 @@ footer .link-group a:hover{
     color: #fff;
     animation: pulse 3s infinite;
 }
+.card-img-top {
+    height: 250%;
+}
